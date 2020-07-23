@@ -1,3 +1,12 @@
+/*
+Script used within the module: "Demo: Creating a Dev Environment in Terraform"
+
+This deploys the Virtual Machine, once you have updated the script as shown in the module
+
+Note this script deploys a virtual machine using the SSH keys as discussed in the video. This can be done using ssh-keygen, without a 
+valid ssh key file this script will error. 
+*/
+
 provider "azurerm" {
   version         = "1.38.0"
   subscription_id = var.subscriptionID

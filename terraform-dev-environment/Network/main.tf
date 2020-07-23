@@ -1,3 +1,9 @@
+/*
+Script used within the module: "Demo: Creating a Dev Environment in Terraform"
+
+This deploys the Network Interface and Vnet, once you have updated the script as shown in the module
+*/
+
 provider "azurerm" {
     version = "1.38.0"
     subscription_id = var.subscriptionID
